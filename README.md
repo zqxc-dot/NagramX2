@@ -1,3 +1,7 @@
+Nagram X2 is fork of Nagram X with unlimited user accounts
+
+Forked from: https://github.com/risin42/NagramX
+
 # Nagram X
 
 A variant of Nagram with additional(ToS breaking) features.
