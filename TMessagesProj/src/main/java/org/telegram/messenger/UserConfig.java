@@ -26,8 +26,8 @@ import tw.nekomimi.nekogram.NekoConfig;
 public class UserConfig extends BaseController {
 
     public static int selectedAccount;
-    public final static int MAX_ACCOUNT_DEFAULT_COUNT = 8;
-    public final static int MAX_ACCOUNT_COUNT = 10;
+    public final static int MAX_ACCOUNT_DEFAULT_COUNT = 98;
+    public final static int MAX_ACCOUNT_COUNT = 99;
 
     private final Object sync = new Object();
     private volatile boolean configLoaded;
@@ -123,7 +123,8 @@ public class UserConfig extends BaseController {
     }
 
     public static int getMaxAccountCount() {
-        return hasPremiumOnAccounts() ? 5 : 3;
+        //return hasPremiumOnAccounts() ? 5 : 3;
+        return 99;
     }
 
     public int getNewMessageId() {
